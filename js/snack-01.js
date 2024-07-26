@@ -44,3 +44,26 @@ for (let i = 0; i < animali.length; i++) {
 }
 
 console.log(mammiferi)
+
+
+// //VERSIONE FOREACH
+// animali.forEach(function(animaleCorrente) {
+//     if (animaleCorrente.classe === 'mammiferi') {
+//         mammiferi.push(animaleCorrente)
+//     }
+// })
+// console.log(mammiferi)
+
+// // VERSIONE FILTER
+// const mammiferi = animali.filter(function(animaleCorrente) {
+//     if (animaleCorrente.classe === 'mammiferi') {
+//         return true
+//     } else {
+//         return false
+//     }
+// })
+
+
+// // VERSIONE COMPATTA FILTER
+// const mammiferi = animali.filter((el) => el.class === 'mammiferi')
+// console.log(mammiferi)
